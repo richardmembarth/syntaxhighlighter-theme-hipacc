@@ -1,0 +1,32 @@
+// Hipacc theme for SyntaxHighlighter
+// https://hipacc-lang.org
+
+$background                   : #272727 !default;
+
+$line_highlighted_background  : #253e5a !default;
+$line_highlighted_number      : #38566f !default;
+
+$code_plain                   : #e0e0e0 !default;
+$code_comments                : #60b060 !default;
+$code_string                  : #d07070 !default;
+$code_keyword                 : #90b0f0 !default;
+$code_preprocessor            : #b0b0b0 !default;
+$code_variable                : #a70    !default;
+$code_value                   : #090    !default;
+$code_functions               : #e0af91 !default;
+$code_constants               : #0066CC !default;
+$code_color1                  : #dad4a6 !default;
+$code_color2                  : #80c4eb !default;
+$code_color3                  : red     !default;
+
+@import "theme-base.scss";
+
+.syntaxhighlighter {
+  padding: 10px !important;
+  box-sizing: border-box;
+  code {
+    font-weight: bold !important;
+    font-family: "Droid Sans Mono", "Consolas", "Bitstream Vera Sans Mono", "Courier New", Courier, monospace !important;
+    font-size: 14px !important;
+  }
+}
